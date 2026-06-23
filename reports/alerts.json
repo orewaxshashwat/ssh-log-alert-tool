@@ -1,0 +1,38 @@
+[
+  {
+    "alert_type": "SSH_BRUTE_FORCE",
+    "severity": "HIGH",
+    "ip": "192.168.1.50",
+    "description": "5 failed login attempts in the time window",
+    "evidence_count": 5,
+    "first_seen": "2026-06-24T09:10:01",
+    "last_seen": "2026-06-24T09:13:44"
+  },
+  {
+    "alert_type": "SUCCESS_AFTER_FAILURES",
+    "severity": "CRITICAL",
+    "ip": "192.168.1.50",
+    "description": "successful login for deploy after 5 failed attempts",
+    "evidence_count": 6,
+    "first_seen": "2026-06-24T09:10:01",
+    "last_seen": "2026-06-24T09:14:12"
+  },
+  {
+    "alert_type": "INVALID_USER_ATTEMPTS",
+    "severity": "MEDIUM",
+    "ip": "192.168.1.50",
+    "description": "3 invalid usernames tried",
+    "evidence_count": 3,
+    "first_seen": "2026-06-24T09:10:01",
+    "last_seen": "2026-06-24T09:12:17"
+  },
+  {
+    "alert_type": "INVALID_USER_ATTEMPTS",
+    "severity": "MEDIUM",
+    "ip": "10.0.0.23",
+    "description": "3 invalid usernames tried",
+    "evidence_count": 3,
+    "first_seen": "2026-06-24T09:20:02",
+    "last_seen": "2026-06-24T09:29:14"
+  }
+]

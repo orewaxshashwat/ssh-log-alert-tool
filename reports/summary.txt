@@ -1,0 +1,34 @@
+SSH Log Alert Summary
+=====================
+
+Parsed log events: 12
+Alerts found: 4
+
+[HIGH] SSH_BRUTE_FORCE
+IP: 192.168.1.50
+Details: 5 failed login attempts in the time window
+Evidence count: 5
+First seen: 2026-06-24T09:10:01
+Last seen: 2026-06-24T09:13:44
+
+[CRITICAL] SUCCESS_AFTER_FAILURES
+IP: 192.168.1.50
+Details: successful login for deploy after 5 failed attempts
+Evidence count: 6
+First seen: 2026-06-24T09:10:01
+Last seen: 2026-06-24T09:14:12
+
+[MEDIUM] INVALID_USER_ATTEMPTS
+IP: 192.168.1.50
+Details: 3 invalid usernames tried
+Evidence count: 3
+First seen: 2026-06-24T09:10:01
+Last seen: 2026-06-24T09:12:17
+
+[MEDIUM] INVALID_USER_ATTEMPTS
+IP: 10.0.0.23
+Details: 3 invalid usernames tried
+Evidence count: 3
+First seen: 2026-06-24T09:20:02
+Last seen: 2026-06-24T09:29:14
+

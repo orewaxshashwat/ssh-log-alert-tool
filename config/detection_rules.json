@@ -1,0 +1,6 @@
+{
+  "failed_login_threshold": 5,
+  "time_window_minutes": 10,
+  "invalid_user_threshold": 3,
+  "output_directory": "reports"
+}

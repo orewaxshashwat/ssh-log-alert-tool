@@ -1,0 +1,12 @@
+Jun 24 09:10:01 ubuntu sshd[1201]: Failed password for invalid user admin from 192.168.1.50 port 51244 ssh2
+Jun 24 09:10:22 ubuntu sshd[1203]: Failed password for invalid user test from 192.168.1.50 port 51248 ssh2
+Jun 24 09:11:03 ubuntu sshd[1205]: Failed password for root from 192.168.1.50 port 51252 ssh2
+Jun 24 09:12:17 ubuntu sshd[1207]: Failed password for invalid user oracle from 192.168.1.50 port 51259 ssh2
+Jun 24 09:13:44 ubuntu sshd[1210]: Failed password for admin from 192.168.1.50 port 51263 ssh2
+Jun 24 09:14:12 ubuntu sshd[1212]: Accepted password for deploy from 192.168.1.50 port 51271 ssh2
+Jun 24 09:20:02 ubuntu sshd[1218]: Failed password for invalid user guest from 10.0.0.23 port 44911 ssh2
+Jun 24 09:22:45 ubuntu sshd[1220]: Failed password for invalid user support from 10.0.0.23 port 44918 ssh2
+Jun 24 09:29:14 ubuntu sshd[1225]: Failed password for invalid user backup from 10.0.0.23 port 44931 ssh2
+Jun 24 09:35:40 ubuntu sshd[1230]: Accepted publickey for analyst from 172.16.5.8 port 60122 ssh2
+Jun 24 09:41:05 ubuntu sshd[1236]: Failed password for root from 203.0.113.77 port 39001 ssh2
+Jun 24 09:58:50 ubuntu sshd[1240]: Failed password for root from 203.0.113.77 port 39044 ssh2
