@@ -58,3 +58,4 @@ In a real SOC, analysts cannot manually read every log line. A small script like
 - Send alerts by email
 - Add IP reputation checking
 - Make a simple dashboard
+
